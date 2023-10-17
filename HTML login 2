@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+h2{
+    text-align: center;
+}
+.box{
+    font-family: 'Montserrat';
+    background-color:#7676A8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 500px;    
+}
+.inp{
+    font-family: 'Montserrat';
+    padding: 6px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    outline-style:none ;
+}
+
+#firstname{
+    width: 140px;
+}
+
+#lastname{
+    width: 140px;
+}
+.inputbox1{
+    margin-left: 20px;
+    
+}
+
+#mail{
+    margin-top: 10px;
+    margin-left: 20px;
+    width:304px;
+}
+
+#password1{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 304px;
+}
+
+#password2{
+    
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 304px;
+}
+
+::placeholder{
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+.terms{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+span{
+    font-size: 14px;
+}
+.submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#submit{
+    font-family:'Montserrat';
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 35px;
+    width: 200px;
+    border: none;
+    outline-style: none;
+    background-color: #8D8A85;
+}
+
+.login{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+.a1{
+    text-decoration: none;
+}
+
+
+</style>
+
+<body>
+    <form action="">
+
+    <div class="box">
+
+        <h2>Sign Up</h2>
+       
+            
+            <div class="inputbox1">
+                <input class="inp" type="text" name="first" id="firstname" placeholder="First Name" required>
+                &nbsp; 
+                <input  class="inp"type="text" name="last" id="lastname" placeholder="Last Name" required>
+            </div>
+
+            <div class="input3">
+                <input class="inp" type="email" name="mail" id="mail" placeholder="Email" required>
+            </div>
+        
+            <div class="password">
+                <input  class="inp "type="passowrd" name="password" id="password1" placeholder="Passoword" required>
+            </div>
+            <div class="password">
+                <input class="inp" type="passowrd" name="password" id="password2" placeholder="Confirm Password" required>
+            </div>
+            <div class="terms">
+                <input type="checkbox" id="check" required> <span>I accept the Terms of Use & Privacy Policy</span> 
+                
+            </div>
+
+            <div class="submit">
+                <input type="submit" name="submit" id="submit" value="submit">
+            </div>
+
+        
+            <div class="login">
+                <a class="a1" href="#">Already have an account?</a> <a class="a2" href="">Login here</a>
+            </div>
+            
+    </div>
+</form>
+</body>
+
+</html>
