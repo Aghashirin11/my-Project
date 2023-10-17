@@ -130,10 +130,10 @@ span{
             </div>
         
             <div class="password">
-                <input  class="inp "type="passowrd" name="password" id="password1" placeholder="Passoword" required>
+                <input  class="inp "type="password" name="password" id="password1" placeholder="Passoword" required>
             </div>
             <div class="password">
-                <input class="inp" type="passowrd" name="password" id="password2" placeholder="Confirm Password" required>
+                <input class="inp" type="password" name="password" id="password2" placeholder="Confirm Password" required>
             </div>
             <div class="terms">
                 <input type="checkbox" id="check" required> <span>I accept the Terms of Use & Privacy Policy</span> 
