@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        .body {
+    background-image: linear-gradient(60deg, #c7d8e8, #fde6e7);
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+h2,
+p,
+h4 {
+    text-align: center;
+}
+
+
+
+p {
+    font-size: 1.25rem;
+    margin: 13px auto;
+}
+
+
+h4 {
+    font-size: 1.5rem;
+    ;
+    margin-top: 50px;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 1px;
+}
+
+
+h2 {
+    font-size: 2.5rem;
+    ;
+    margin: 60px auto 0;
+    font-family: Montserrat, sans-serif;
+}
+
+
+
+.container {
+    background-color: white;
+
+    width: 550px;
+    height: 550px;
+    margin: 44px auto 60px;
+    border-radius: 30px;
+    padding: 30px;
+    text-align: start;
+
+}
+
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+
+.container #inputbox {
+    display: flex;
+    border-radius: 10px;
+    padding: 12px 10px;
+    background-color: #f0f5f9;
+    border: none;
+    border-width: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.container .ibox2{
+    margin-top: 15px;
+}
+
+#textarea{
+    font-family: 'Open Sans', sans-serif;
+    background-color:#f0f5f9 ;
+    border-radius: 10px;
+    border-sizing:border-box;
+    border: none;
+    margin-top: 5px;
+    font-size: 16px;
+}
+.msjbox{
+    margin-top: 15px ;
+}
+
+.terms{
+    cursor: pointer;
+    color: #537459;
+}
+
+.checkbox{
+    margin-top: 10px;
+}
+
+.submit{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 15px;
+    
+}
+
+input[type="submit"]{
+    height: 60px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color:#496885;
+    color: white;
+    font-size: 1.25rem;
+    font-family: font-family: 'Open Sans', sans-serif;;
+
+}
+    </style>
+<head>
+    <meta charset='utf-8'>
+
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+
+</head>
+
+<body class="body">
+    <h2>Get Strarted</h2>
+    <p>Let's make something cool</p>
+<form action="">
+    <div class="container">
+        <h4 class="text3">Get started with a free quotation</h4>
+        <div class="ibox">
+            <label for="name">Name</label>
+            <input type="text" id="inputbox" name="name" placeholder="Enter your name" required>
+        </div>
+        <div class="ibox2" <label for="email">E-mail</label>
+            <input type="email" id="inputbox" name="email" placeholder="Enter a valid email adress" required>
+        </div>
+
+        <div class="msjbox">
+            <label for="textarea">Message</label>
+
+            <textarea name="textarea" id="inputbox" cols="63" rows="5" placeholder="Enter your message" required></textarea>
+
+        </div>
+
+        <div class="checkbox">
+            
+            <input type="checkbox"  id="check">
+            <label for="check" ">I accept the <span class="terms">  Terms of Service</span></label>
+
+        </div>
+
+         <div class="submit">
+            
+            <input type="Submit" name="gonder" value="Submit your request">
+
+         </div>
+            
+            
+
+       
+
+    </div>
+    
+</form>
+</body>
+
+</html>
